@@ -1,0 +1,13 @@
+    int buff[100];
+    fstream fin("ui1080.png",ios::in|ios::binary);
+    fstream fout("outimg.png", ios::out|ios::app|ios::binary);
+
+    while(!fin.eof())
+    {
+        fin.read(reinterpret_cast<char*>(buff), buff.size());
+        fout.write(reinterpret_cast<char*>(buff), 100*sizeof(int));
+    }
+
+    fin.close();
+    fout.close();
+    cout << "operation successful";

@@ -1,0 +1,3 @@
+2 variables : 6, 9
+4 variables : 4680, 5160, 8580, 9345, 18450, 18465, 33060, 33345, 33810, 33825
+6 variables : no output

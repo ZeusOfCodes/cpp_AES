@@ -1,0 +1,73 @@
+# depslib dependency file v1.0
+1531575550 source:d:\cryptserv\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	<stdio.h>
+	"AES_CxDecipher.h"
+	"fstreamExtension.h"
+
+1526184610 source:d:\cryptserv\src\cryptservexception.cpp
+	"cryptServException.h"
+
+1526144285 d:\cryptserv\include\cryptservexception.h
+	<exception>
+
+1527232629 source:d:\cryptserv\src\fstreamextension.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"fstreamExtension.h"
+
+1527232613 d:\cryptserv\include\fstreamextension.h
+	<fstream>
+	<string>
+	<vector>
+
+1526637044 source:d:\cryptserv\src\dynamicallocator.cpp
+	"dynamicAllocator.h"
+	<vector>
+	<exception>
+
+1526637584 d:\cryptserv\include\dynamicallocator.h
+	<vector>
+	<exception>
+
+1526662195 d:\cryptserv\include\dynamicarray.h
+
+1526662199 source:d:\cryptserv\src\dynamicarray.cpp
+	"dynamicArray.h"
+
+1526898525 source:d:\cryptserv\src\aes_encryption.cpp
+	<algorithm>
+	"AES_Encryption.h"
+
+1526825837 d:\cryptserv\include\aes_encryption.h
+
+1526899341 source:d:\cryptserv\src\aes_decryption.cpp
+	<algorithm>
+	"AES_Decryption.h"
+
+1526841042 d:\cryptserv\include\aes_decryption.h
+	<stdint.h>
+
+1531471904 source:d:\cryptserv\src\aes_cxdecipher.cpp
+	<algorithm>
+	<random>
+	<functional>
+	"fstreamExtension.h"
+	"AES_CxDecipher.h"
+
+1531454199 d:\cryptserv\include\aes_cxdecipher.h
+
+1527231582 source:d:\cryptserv\src\keyverification.cpp
+	"keyVerification.h"
+
+1527231564 d:\cryptserv\include\keyverification.h
+
+1527237063 source:d:\cryptserv\src\aes_operationmode.cpp
+	<stdint.h>
+	"AES_OperationMode.h"
+
+1527237085 d:\cryptserv\include\aes_operationmode.h
+
